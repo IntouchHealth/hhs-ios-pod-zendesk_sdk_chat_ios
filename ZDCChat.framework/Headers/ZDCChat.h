@@ -22,7 +22,7 @@
 // Chat API SDK Version
 #define ZDC_CHAT_SDK_VERSION @"1.4.7"
 
-#if MODULES_DISABLED
+#if 1 // MODULES_DISABLED
 #import <ZDCChatAPI/ZDCChatAPI.h>
 #else
 @import ZDCChatAPI;

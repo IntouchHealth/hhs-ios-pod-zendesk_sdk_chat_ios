@@ -14,7 +14,7 @@
  *
  */
 
-#if MODULES_DISABLED
+#if 1 // MODULES_DISABLED
 #import <ZDCChatAPI/ZDCChatAPI.h>
 #else
 @import ZDCChatAPI;
