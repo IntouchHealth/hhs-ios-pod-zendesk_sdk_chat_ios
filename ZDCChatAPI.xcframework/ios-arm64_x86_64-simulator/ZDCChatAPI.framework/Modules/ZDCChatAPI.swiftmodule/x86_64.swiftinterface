@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -static -Onone -enable-bare-slash-regex -module-name THCore
+import Combine
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+extension Combine.Publisher {
+  public func tdh_sinkOnce(receiveError: @escaping ((Self.Failure) -> Swift.Void), receiveValue: @escaping ((Self.Output) -> Swift.Void))
+}
+@available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+extension Combine.Publisher where Self.Failure == Swift.Never {
+  public func tdh_sinkOnce(receiveValue: @escaping ((Self.Output) -> Swift.Void))
+}
+public func PerformNow(execute: @escaping () -> Swift.Void)
+final public class THNotifier<T> {
+  public init()
+  final public func addNotifier(_ delegate: T)
+  final public func removeNotifier(_ delegate: T)
+  final public func notify(_ invocation: (T) -> Swift.Void)
+  final public func notifyOnMainThread(_ invocation: @escaping (T) -> Swift.Void)
+  @objc deinit
+}
