@@ -22,6 +22,14 @@ You can also reference this repository as a CocoaPod:
 pod 'ZDCChat'
 ````
 
+Or as a Swift Package:
+
+````
+.package(url: "https://github.com/IntouchHealth/hhs-ios-pod-zendesk_sdk_chat_ios.git", from: "1.4.7")
+````
+
+with product name `ZDCChat`.
+
 ## Documentation
 
 * [Introduction](https://developer.zendesk.com/embeddables/docs/ios-chat-sdk/introduction)
