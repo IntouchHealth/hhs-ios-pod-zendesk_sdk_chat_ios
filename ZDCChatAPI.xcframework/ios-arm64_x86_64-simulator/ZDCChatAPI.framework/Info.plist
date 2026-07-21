@@ -7,9 +7,9 @@
 	<key>CFBundleExecutable</key>
 	<string>ZDCChatAPI</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.teladoc.thcore</string>
+	<string>com.zendesk.zdcchatapi</string>
 	<key>CFBundlePackageType</key>
-	<string>XFWK</string>
+	<string>FMWK</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>iPhoneSimulator</string>
