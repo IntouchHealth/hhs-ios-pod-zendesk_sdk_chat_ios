@@ -1,3 +1,6 @@
+:warning:  There is a new version of the Zendesk Chat SDK, available [here](https://github.com/zendesk/chat_sdk_ios). :warning:
+
+
 :warning: *Use of this software is subject to important terms and conditions as set forth in the License file* :warning:
 
 # Zendesk Chat SDK for iOS 1.4.7
@@ -18,6 +21,14 @@ You can also reference this repository as a CocoaPod:
 ````
 pod 'ZDCChat'
 ````
+
+Or as a Swift Package:
+
+````
+.package(url: "https://github.com/IntouchHealth/hhs-ios-pod-zendesk_sdk_chat_ios.git", from: "1.4.7")
+````
+
+with product name `ZDCChat`.
 
 ## Documentation
 
